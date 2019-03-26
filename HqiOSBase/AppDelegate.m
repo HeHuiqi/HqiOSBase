@@ -16,6 +16,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    NSString *url = HOST;
+    NSLog(@"url = %@",url);
+
     return YES;
 }
 
